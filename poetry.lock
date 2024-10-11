@@ -826,17 +826,18 @@ doc = ["Sphinx", "sphinx-rtd-theme", "sphinxcontrib-spelling"]
 
 [[package]]
 name = "faker"
-version = "26.3.0"
+version = "30.3.0"
 description = "Faker is a Python package that generates fake data for you."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "Faker-26.3.0-py3-none-any.whl", hash = "sha256:97fe1e7e953dd640ca2cd4dfac4db7c4d2432dd1b7a244a3313517707f3b54e9"},
-    {file = "Faker-26.3.0.tar.gz", hash = "sha256:7c10ebdf74aaa0cc4fe6ec6db5a71e8598ec33503524bd4b5f4494785a5670dd"},
+    {file = "Faker-30.3.0-py3-none-any.whl", hash = "sha256:e8a15fd1b0f72992b008f5ea94c70d3baa0cb51b0d5a0e899c17b1d1b23d2771"},
+    {file = "faker-30.3.0.tar.gz", hash = "sha256:8760fbb34564fbb2f394345eef24aec5b8f6506b6cfcefe8195ed66dd1032bdb"},
 ]
 
 [package.dependencies]
 python-dateutil = ">=2.4"
+typing-extensions = "*"
 
 [[package]]
 name = "fancycompleter"
@@ -2590,4 +2591,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9.13"
-content-hash = "926c0e2c9bb1473cf8a556dc0e30a1fc31ab055c5fb69c01725f2f6142a56fa7"
+content-hash = "ac902133fc6f7e0b28a63f0a7e17ba3db9f1d53410351d01be1f39be6efcf595"
